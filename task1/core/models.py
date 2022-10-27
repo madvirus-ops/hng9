@@ -8,4 +8,4 @@ class SlackModel(models.Model):
     slackUsername = models.CharField(max_length=30)
     backend = models.BooleanField(default=True)
     age = models.IntegerField()
-    bio = models.CharField(max_length=30)
+    bio = models.CharField(max_length=255)

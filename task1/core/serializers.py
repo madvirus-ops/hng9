@@ -5,4 +5,4 @@ from .models import SlackModel
 class SlackModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = SlackModel
-        fields = "__all__"
+        fields = ("slackUsername","age","backend","bio")
