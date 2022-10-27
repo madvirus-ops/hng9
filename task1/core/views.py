@@ -6,7 +6,7 @@ from .models import SlackModel
 # Create your views here.
 
 
-class IndexView(generics.CreateAPIView):
+class CreateView(generics.CreateAPIView):
     serializer_class = SlackModelSerializer
     # queryset = SlackModel.objects.all()
 

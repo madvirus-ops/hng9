@@ -19,7 +19,7 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("api/post",views.IndexView.as_view(), name= "post"),
+    path("api/post",views.CreateView.as_view(), name= "post"),
     path("api/get",views.ListView.as_view(),name="get"),
 
 ]
